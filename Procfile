@@ -1,2 +1,2 @@
-web : npm start -p $PORT
-worker: node index.js -p $PORT
+web : bash start -p $PORT
+worker: bash start -p $PORT
